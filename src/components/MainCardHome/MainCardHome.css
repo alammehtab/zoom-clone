@@ -1,0 +1,45 @@
+.main-card {
+  width: 70%;
+  /* height: 500px; */
+  height: 80%;
+  box-shadow: 2px 5px 20px black;
+  /* margin: auto; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  /* align-items: stretch; */
+  /* color: white; */
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: lightyellow;
+}
+
+.main-card-form {
+  /* border: 4px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-signin-btns {
+  /* border: 4px solid red; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* .login-signup-links {
+  display: flex;
+  justify-content: space-around;
+} */

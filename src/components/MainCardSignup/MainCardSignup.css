@@ -1,0 +1,34 @@
+.main-card {
+  width: 70%;
+  /* height: 500px; */
+  height: 80%;
+  box-shadow: 2px 5px 20px black;
+  /* margin: auto; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.left-div{
+  border: 2px solid red;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-div{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-items: center; */
+  flex: 1;
+}
