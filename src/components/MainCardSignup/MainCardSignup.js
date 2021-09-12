@@ -7,9 +7,9 @@ const MainCardSignup = () => {
     <div className="main-card">
       <div className="left-div">
         <div>
-          <h2>SIGN UP FREE</h2>
+          <h3>SIGN UP FREE</h3>
           <br />
-          <h5>Meetings and Chat for free</h5>
+          <p>Meetings and Chat for free</p>
         </div>
         <br />
         <div>
@@ -17,21 +17,36 @@ const MainCardSignup = () => {
         </div>
         <br />
         <div>
-          <p>Already have an account? Sign In</p>
+          <p>
+            Already have an account?
+            <Link class to="/signin">
+              {" "}
+              Sign In
+            </Link>{" "}
+          </p>
         </div>
       </div>
       <div className="right-div">
-        <div>
-          <span>Email address</span>
-          <br />
-          <input />
+        {/* BOOTSTRAP FORM */}
+        <div className="mb-3">
+          <label for="exampleFormControlInput1" className="form-label">
+            Email address
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
         </div>
-        <p>
-          By signing up, I agree to the <Link>Zoom's Privacy Statement </Link>
-          and
-          <Link>Terms of Service.</Link>
-        </p>
-        <button className="btn btn-primary btn-lg btn-block">Sign Up</button>
+        <div className="mb-3">
+          <p>
+            By signing up, I agree to the <Link>Zoom's Privacy Statement </Link>
+            and
+            <Link> Terms of Service.</Link>
+          </p>
+          <button className="btn btn-primary btn-lg">Sign Up</button>
+        </div>
       </div>
     </div>
   );

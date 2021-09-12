@@ -12,8 +12,6 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  /* align-items: stretch; */
-  /* color: white; */
 }
 
 .btn:focus {

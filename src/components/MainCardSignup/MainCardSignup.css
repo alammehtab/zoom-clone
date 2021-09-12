@@ -1,9 +1,7 @@
 .main-card {
   width: 70%;
-  /* height: 500px; */
   height: 80%;
   box-shadow: 2px 5px 20px black;
-  /* margin: auto; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -11,24 +9,24 @@
   margin-top: 30px;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-} 
+}
 
-.left-div{
-  border: 2px solid red;
-  flex: 1;
+.left-div {
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: center;
   align-items: center;
 }
 
-.right-div{
-  border: 2px solid red;
+.right-div {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* align-items: center; */
   flex: 1;
+  border-left: 1px solid lightblue;
+  padding: 30px;
+  justify-content: space-around;
 }
+
