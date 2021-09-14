@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import MainCardSignin from "../components/MainCardSignin/MainCardSignin";
 const SignIn = () => {
   return (
     <div>
-      <h1>Welcome to SignIn Page!</h1>
-      <Link to="/">Home</Link>
+      <MainCardSignin />
     </div>
   );
 };

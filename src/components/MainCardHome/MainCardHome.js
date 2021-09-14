@@ -16,7 +16,6 @@ const MainCardHome = () => {
           <br />
           <br />
         </div>
-        {/* <br /> */}
         <div className="join-signin-btns">
           <button className="btn btn-primary btn-lg">Join Meeting</button>
           <br />

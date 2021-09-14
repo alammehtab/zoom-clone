@@ -4,51 +4,51 @@ import "./MainCardSignup.css";
 
 const MainCardSignup = () => {
   return (
-    <div className="main-card">
-      <div className="left-div">
-        <div>
-          <h3>SIGN UP FREE</h3>
-          <br />
-          <p>Meetings and Chat for free</p>
-        </div>
-        <br />
-        <div>
-          <i class="fas fa-user-plus fa-6x"></i>
-        </div>
-        <br />
-        <div>
-          <p>
-            Already have an account?
-            <Link class to="/signin">
-              {" "}
-              Sign In
-            </Link>{" "}
-          </p>
-        </div>
+    <form className="main-card">
+      <h1>Sign Up</h1>
+      <br />
+
+      <div className="form-group">
+        <input type="text" className="form-control" placeholder="First name" />
       </div>
-      <div className="right-div">
-        {/* BOOTSTRAP FORM */}
-        <div className="mb-3">
-          <label for="exampleFormControlInput1" className="form-label">
-            Email address
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div className="mb-3">
-          <p>
-            By signing up, I agree to the <Link>Zoom's Privacy Statement </Link>
-            and
-            <Link> Terms of Service.</Link>
-          </p>
-          <button className="btn btn-primary btn-lg">Sign Up</button>
-        </div>
+      <br />
+
+      <div className="form-group">
+        <input type="text" className="form-control" placeholder="Last name" />
       </div>
-    </div>
+      <br />
+
+      <div className="form-group">
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Enter email"
+        />
+      </div>
+      <br />
+
+      <div className="form-group">
+        <input
+          type="password"
+          className="form-control"
+          placeholder="Enter password"
+        />
+      </div>
+      <br />
+
+      <button type="submit" className="btn btn-primary btn-block">
+        Sign Up
+      </button>
+      <br />
+      <div className="already-reg">
+        <p className="forgot-password text-right">
+          Already registered
+          <Link to="/signin" className="signin-link">
+            sign in?
+          </Link>
+        </p>
+      </div>
+    </form>
   );
 };
 

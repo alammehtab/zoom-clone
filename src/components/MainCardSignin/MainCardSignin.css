@@ -11,7 +11,12 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .main-card {
+    padding: 0px;
+  }
 }
 
 .form-group {
@@ -20,21 +25,15 @@
   align-items: baseline;
 }
 
-.already-reg {
+.forgot-password {
   display: flex;
   justify-content: flex-end;
 }
-
-.signin-link {
+.password {
   text-decoration: none;
-  margin-left: 5px;
 }
 
-@media (max-width: 800px) {
-  .main-card {
-    padding: 0px;
-  }
-  .already-reg {
-    display: none;
-  }
+.break {
+  display: block;
+  margin: 10px;
 }

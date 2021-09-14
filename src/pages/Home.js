@@ -1,10 +1,30 @@
 import React from "react";
-import MainCardHome from "../components/MainCardHome/MainCardHome";
+import { Link } from "react-router-dom";
+
+import "./home.css";
 
 const Home = () => {
   return (
-    <div>
-      <MainCardHome />
+    <div className="container">
+      <h1>ZOOM</h1>
+      <br />
+      <br />
+      <br />
+      <div className="join-signin-btns">
+        <button className="btn btn-primary btn-lg">Join Meeting</button>
+        <br />
+        <button className="btn btn-outline-primary">
+          <Link to="/signin" style={{ textDecoration: "none" }}>
+            Sign In
+          </Link>
+        </button>
+        <br />
+        <button className="btn btn-outline-primary">
+          <Link to="/signup" style={{ textDecoration: "none" }}>
+            Sign Up
+          </Link>
+        </button>
+      </div>
     </div>
   );
 };
