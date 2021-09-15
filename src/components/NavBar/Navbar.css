@@ -1,5 +1,9 @@
 .logo-and-name {
   display: flex;
   align-items: center;
+  color: rgb(105, 105, 238);
 }
 
+.logo-and-name:hover{
+  color: white;
+}

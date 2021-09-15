@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="container">
-      <h1>ZOOM</h1>
+      <h1 className="main-heading">ZOOM</h1>
       <br />
       <br />
       <br />

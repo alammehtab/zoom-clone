@@ -11,8 +11,15 @@ const NavBar = () => {
           <Link class="navbar-brand" to="/">
             <div className="logo-and-name">
               <i class="fab fa-skype fa-2x"></i>
-              <span style={{ fontSize: 20, fontWeight: "bolder", marginLeft:10 }}>
-                Let's Meet
+              <span
+                style={{
+                  fontSize: "1.6em",
+                  fontWeight: "bolder",
+                  marginLeft: 10,
+                  fontStyle: "italic",
+                }}
+              >
+                ZOOM
               </span>
             </div>
           </Link>

@@ -9,6 +9,21 @@
   margin-top: 50px;
 }
 
+.main-heading {
+  font-size: 4em;
+  color: rgb(105, 105, 238);
+}
+
+.main-heading:hover {
+  font-size: 4.2em;
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  .main-heading {
+    font-size: 3em;
+  }
+}
+
 .btn:focus {
   box-shadow: none;
 }
