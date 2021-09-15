@@ -37,3 +37,13 @@
   justify-content: space-between;
   flex-direction: column;
 }
+
+@media (max-width: 650px) {
+  .join-button {
+    visibility: hidden;
+  }
+  .join-button {
+    content: "Join";
+    visibility: visible;
+  }
+}
