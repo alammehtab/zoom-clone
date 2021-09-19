@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar/Navbar";
 import Home from "./pages/Home";
 import SignIn from "./pages/Signin";
 import SignUp from "./pages/Signup";
+import JoinMeeting from "./pages/JoinMeeting";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
         </Route>
         <Route path="/signup">
           <SignUp />
+        </Route>
+        <Route path="/joinmeeting">
+          <JoinMeeting />
         </Route>
       </Switch>
     </div>

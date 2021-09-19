@@ -11,7 +11,14 @@ const Home = () => {
       <br />
       <br />
       <div className="join-signin-btns">
-        <button className="btn btn-primary btn-lg join-button">Join Meeting</button>
+        <button className="btn btn-primary btn-lg join-button">
+          <Link
+            to="/joinmeeting"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Join Meeting
+          </Link>
+        </button>
         <br />
         <button className="btn btn-outline-primary">
           <Link to="/signin" style={{ textDecoration: "none" }}>
