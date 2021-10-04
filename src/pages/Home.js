@@ -6,8 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="container">
-      <h1 className="main-heading">ZOOM</h1>
-      <br />
+      <h1 className="main-heading">MEET UP</h1>
       <br />
       <br />
       <div className="join-signin-btns">

@@ -13,13 +13,13 @@ const NavBar = () => {
               <i class="fab fa-skype fa-2x"></i>
               <span
                 style={{
-                  fontSize: "1.6em",
+                  fontSize: "1.2em",
                   fontWeight: "bolder",
                   marginLeft: 10,
                   fontStyle: "italic",
                 }}
               >
-                ZOOM
+                MEET UP
               </span>
             </div>
           </Link>
