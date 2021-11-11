@@ -3,7 +3,7 @@ import "./joinmeeting.css";
 
 const JoinMeeting = () => {
   return (
-    <form className="container">
+    <div className="container">
       <div>
         <h5>Join Meeting</h5>
         <br />
@@ -20,7 +20,7 @@ const JoinMeeting = () => {
       />
       <br />
       <button className="btn btn-primary btn-block">Join meeting</button>
-    </form>
+    </div>
   );
 };
 
